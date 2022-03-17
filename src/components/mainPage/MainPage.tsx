@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from './Main.module.scss'
-import cursorButton from '../../img/cursor/cursor.png'
+import cursorButton from '../../img/cursor/cursorWhite.png'
 
-const MainPage = () => {
+const MainPage: FC = () => {
     return (
         <div className={styles.main}>
             <label className={styles.title} htmlFor="cities">Выберите город</label>
