@@ -1,7 +1,9 @@
 * {
-  cursor: url("./img/cursor/cursor.png") , pointer;
+  cursor: url("./img/cursor/cursorWhite.png") , pointer;
 }
-
+html {
+  background: url("./img/nigth.png") center center/cover no-repeat;
+}
 body {
   margin: 0;
   padding: 0;
